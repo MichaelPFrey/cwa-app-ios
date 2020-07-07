@@ -106,7 +106,7 @@ final class ExposureDetectionExecutor: ExposureDetectionDelegate {
 		}
 
 		var fileURLs: [URL]  // Will contain all cached keypackages for the interaction with ENF
-		// Limit packages to upper thresshold
+		// Limit packages to upper threshold
 		// This should never happen. Code is just here to be sure
 		if writtenPackages.urls.count > 14 {
 			logError(message: "Trying to feed too many files into the framework")
